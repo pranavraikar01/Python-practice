@@ -124,9 +124,26 @@
 #     print()
 
 
-#--loop control statements------
-while True:
-    name=input("enter your name: ")
-    if name!="":
-        break
-print("while loop is broken")
+#----loop control statements------
+#      #--break--
+# while True:
+#     name=input("enter your name: ")
+#     if name!="":
+#         break
+# print("while loop is broken")
+
+#         #--continue--
+# phone_number="123-456-789"
+# for i in phone_number:
+#     if i=="-":
+#         continue
+#     print(i,end="")   #writes all digits in same line here
+
+#          #--pass--
+# for i in range(1,21):
+#     if i==13:
+#         pass                    #pass skips the content give in that if condition
+#     else:print(" "+ str(i),end="")    
+
+
+
