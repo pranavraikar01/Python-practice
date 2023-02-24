@@ -142,7 +142,7 @@
 #          #--pass--
 # for i in range(1,21):
 #     if i==13:
-#         pass                    #pass skips the content give in that if condition
+#         pass                    #pass skips the content given in that if condition
 #     else:print(" "+ str(i),end="")    
 
 
