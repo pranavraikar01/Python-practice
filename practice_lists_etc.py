@@ -65,3 +65,18 @@
 # for key,value in Capitals.items():      #also prints both keys and values
 #     print(key,value)
 # Capitals.clear()                        #clears the dictionary
+
+
+
+# #-----index operator [] =gives access to a sequenc's element(str,list,tupples)---
+# name="pranav raikar"
+# if(name[0].islower()):          
+#     name=name.capitalize()          #checks name is in lower case if yes then it capitalizes it we can do it vice versa too
+# print(name)
+# first_name=name[:3].upper()         
+# print(first_name)
+# last_name=name[4:].lower()
+# print(last_name)
+# last_character=name[-1]
+# print(last_character)
+
