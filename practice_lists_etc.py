@@ -25,7 +25,7 @@
 
 # #-----tupples----    it is collection of data which is ordered and is unchangeble and unlike list we can store duplicate data in tupple
 # student=("Pranav",20,"male","Pranav")
-# print(student.count("Pranav"))          #counts how many times pranav is repeated
+# print(student.count("Pranav"))          #counts how many times Pranav is repeated
 # print(student.index("Pranav"))          #gives the index position of pranav if repeated then it gives index of word which comes first
 # for i in student:
 #     print(i)

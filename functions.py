@@ -27,3 +27,15 @@
 # print(round(abs(float(input("enter a integer: ")))))
 
 
+
+# #----variable scope---  The region taht a variable is recognized
+# #                       Avaialable is only available from inside the region it is created it can be global or local
+# name="Pranav"                   #global variable
+# def display_name():        
+#     name="Raikar"          #local variable note:if local variable is not there in function then the function uses the global variable 
+# #                           python follows LEGB=LOCAL,ENCLOSING,GLOBAL,BUILT-IN variables i.e if local not there then function checks for enclosing
+# #                           function and so on
+#     print(name)
+# display_name()
+# print(name)
+
