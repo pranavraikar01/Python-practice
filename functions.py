@@ -63,3 +63,24 @@
 
 
 
+# #-----str.format()---     optional method that gives users more control when displaying output
+# animal="cow"
+# planet="earth"
+# print("the {} walks on the {}".format(animal,planet))                              #{}is called as foramt field
+# print("the {1} walks on the {0}".format(animal,planet))                            #positional argument here position of data comming inside{} is specified in the code
+# print("the {animal} walks on the {planet}".format(animal="Dog",planet="Moon"))           #keyword argument
+# text="The {} walks on the {}"
+# print(text.format(animal,planet))                                           #different way of using .format
+# name="pranav"
+# print("hello my name is{:<10},nice to meet you".format(name))          #adds space where {} is used it can be after data from {} or also before data from{} as shown below
+# print("hello my name is{:>10},nice to meet you".format(name))    
+# print("hello my name is{:^10},nice to meet you".format(name))             #we can also show the data from {} in the centre of space where {} is present
+# number=1000
+# print("the number  is: {:.2f}".format(number))                          #prints value of pi upto two decimal
+# print("the number is {:b}".format(number))             #prints the binary equivalent of given number same can be done for ortho ,hexadecimal as shown below
+# print("the number is {:o}".format(number))               #prints the number in orthogonal system
+# print("the number is {:X}".format(number))                  #prints the number in hexadecimal system
+# print("the number is {:E}".format(number))                #prints the number in scientific notation
+
+
+
