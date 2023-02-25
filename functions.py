@@ -29,7 +29,7 @@
 
 
 # #----variable scope---  The region taht a variable is recognized
-# #                       Avaialable is only available from inside the region it is created it can be global or local
+# #                       variable is only available from inside the region it is created it can be global or local
 # name="Pranav"                   #global variable
 # def display_name():        
 #     name="Raikar"          #local variable note:if local variable is not there in function then the function uses the global variable 
@@ -84,3 +84,16 @@
 
 
 
+# #-----random numbers----    
+# import random
+# x=random.randint(1,6)                   #creates a random number between 1 and 6
+# print(x)
+# y=random.random  ()                       #creates random floating point number
+# print(y)
+# mylist=['rock','paper','pen']
+# z=random.choice(mylist)                    #creates random from the list
+# print(z)
+# cards=[1,2,3,4,5,"j","k","l","m"]
+
+# random.shuffle(cards)                   #shuffles the members of the list
+# print(cards)
