@@ -39,3 +39,27 @@
 # display_name()
 # print(name)
 
+
+
+# #----args--- parameter that will pack all arguments into a tupple  useful so that a function can accept a varrying amount of arguments
+# def add(*data):             #name can be any thing but when we send tupple as argument  * sign is compulsory
+#     sum=0
+#     data=list[data]    #type casting because we want to change specific value in tupple but tupple does not allow indexing
+#     data[0]=0           #thus data at 0 position is changed from 1 to 0
+#     for i in data:
+#         sum=sum+i
+#     return sum
+# print(add(1,2,3,4,5,6))     #here data is a tupple thus we can send any number of data to the function with the use of tupples since tupples are iterable in a function
+
+
+
+# #-----**kwargs---- parameters that will pack all arguments in a "dictionary" useful so that a function can accept a varrying amount of keyword argument
+# def hello(**kwargs):
+#     print("hello "+kwargs['first'])
+#     print("hello",end=" ")
+#     for key,value in kwargs.items():
+#         print(value,end=" ")
+# hello(title="Master",first="Pranav",middle="Sandeep",last="Raikar")
+
+
+

@@ -23,7 +23,7 @@
 # print(food)
 
 
-# #-----tupples----    it is collection of data which is ordered and is unchangeble and unlike list we can store duplicate data in tupple
+# #-----tupples----    it is collection of data which is ordered and is unchangeble and unlike list we can store duplicate data in tupple tupples does not allow indexing
 # student=("Pranav",20,"male","Pranav")
 # print(student.count("Pranav"))          #counts how many times Pranav is repeated
 # print(student.index("Pranav"))          #gives the index position of pranav if repeated then it gives index of word which comes first
