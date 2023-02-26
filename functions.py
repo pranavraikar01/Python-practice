@@ -2,7 +2,6 @@
 # def hello(first_name,last_name):
 #     print("hello " + first_name +" "+ last_name)
 #     print("have a nice day")
-
 # hello("Pranav","Raikar")    #function called
 # first_name="Pranav"
 # last_name="Raikar"
