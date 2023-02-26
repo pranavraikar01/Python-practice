@@ -56,24 +56,25 @@
 #         print(source +" i.e the file is moved")
 # except FileNotFoundError:
 #     print(source + "was not found")
-#NOTE:we can also do the same above process of moving file for a folder
+# # NOTE:we can also do the same above process of moving file for a folder
 
 
 
-#---delete a file---        NOTE:whenever you run these code in future for files first check they are present or deleted during the early execution
-import os
-import shutil
-path='sample.txt'
-try:
-    os.remove(path)             #deletes a file
-    #os.rmdir(path)             #deletes a file or empty folder
-    #shutil.rmtree(path)        #delete files and or folders
-except FileNotFoundError:
-    print("file was not found")
-except PermissionError:
-    print("You do not have permission to delete the file")
-except OSError:
-    print("You can delete that only by shutil.remove method")
-else:
-    print(path +" was deleted")
+
+# #---delete a file---        NOTE:whenever you run these code in future for files first check they are present or deleted during the early execution
+# import os
+# import shutil
+# path='sample.txt'
+# try:
+#     os.remove(path)             #deletes a file
+#     #os.rmdir(path)             #deletes a file or empty folder
+#     #shutil.rmtree(path)        #delete files and or folders
+# except FileNotFoundError:
+#     print("file was not found")
+# except PermissionError:
+#     print("You do not have permission to delete the file")
+# except OSError:
+#     print("You can delete that only by shutil.remove method")
+# else:
+#     print(path +" was deleted")
 
