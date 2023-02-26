@@ -34,4 +34,46 @@
 
 
 
-#---copy a file----
+# #---copy a file----
+# #copyfile() = copies conntents of file
+# #copy() =copyfile() + prmission mode + destination can be a directory
+# #copy2() = copy() + copies matadat(file's creation and modification times)
+# import shutil           #in this module there are copyfile(),copy(),copy2() functions
+# shutil.copyfile('pranav.txt','copy.txt')        #sorce,destination must be given as argument to function NOTE:destination file is automatically created wherever source is present
+
+
+
+
+# #---move a file---- 
+# import os
+# source="copy.txt"
+# destination="C:\\Users\\Pranav\\Desktop\\movedcopy.txt"     #destination where the file is to be moved
+# try:
+#     if os.path.exists(destination):
+#         print("there already a file exists")
+#     else:
+#         os.replace(source,destination)
+#         print(source +" i.e the file is moved")
+# except FileNotFoundError:
+#     print(source + "was not found")
+#NOTE:we can also do the same above process of moving file for a folder
+
+
+
+#---delete a file---        NOTE:whenever you run these code in future for files first check they are present or deleted during the early execution
+import os
+import shutil
+path='sample.txt'
+try:
+    os.remove(path)             #deletes a file
+    #os.rmdir(path)             #deletes a file or empty folder
+    #shutil.rmtree(path)        #delete files and or folders
+except FileNotFoundError:
+    print("file was not found")
+except PermissionError:
+    print("You do not have permission to delete the file")
+except OSError:
+    print("You can delete that only by shutil.remove method")
+else:
+    print(path +" was deleted")
+
