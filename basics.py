@@ -64,7 +64,7 @@
 # print(website2[slice])
 
 
-##*****conditional statements*************
+# #*****conditional statements*************
 # age=int(input("How old are you?:"))
 # if age==100:
 #     print("You are very old")
@@ -76,7 +76,7 @@
 #     print("You ARE A CHILD")
 
 
-##*****logical operators*************
+# #*****logical operators*************
 # temp=int(input("what is the temperature outside:"))
 # if temp >=0 and temp <=30:
 #     print("the temperature is good today")
@@ -90,14 +90,14 @@
 #     print("stay at home")
 
 
-##---while loop-----
+# #---while loop-----
 # name=""
 # while len(name)==0:
 #     name=input("enter your name:")
 # print("hello "+name)
 
 
-##---for loop-----
+# #---for loop-----
 # for i in range(10):   #here 10 is exclusive
 #     print(i)
 # for i in range(50,100):   #here 50 is inclusive and 100 is exclusive
@@ -115,7 +115,7 @@
 
 
 
-##---neasted for loop-----            it can be used for drawing patterns
+# #---neasted for loop-----            it can be used for drawing patterns
 # rows =int(input("how many number of rows are there: "))
 # columns=int(input("how many columns: "))
 # symbol=input("enter a symbol to use: ")
@@ -125,7 +125,7 @@
 #     print()
 
 
-##----loop control statements------
+# #----loop control statements------
 #      #--break--
 # while True:
 #     name=input("enter your name: ")
