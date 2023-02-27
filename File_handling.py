@@ -78,3 +78,16 @@
 # else:
 #     print(path +" was deleted")
 
+
+
+
+
+# #-----module---    a file containing python code.May contain functions,classes,etc. 
+# #                  used with modular programming,which is to seperate a program into parts 
+# import modules as msg               #as msg here is just usde for giveing the the usage of module a specific name in this module
+# msg.hello()
+# msg.bye()
+# #the above syntax can be also written:
+# #from modules import hello,bye   #NOTE: Then we dont have to write msg.bye() we have to write only bye() while calling the function bye
+# #if we are working on large program then we can use:  from modules import *
+# #NOTE: for knowing the inbuilt modules of python we have in our system type :-  help("modules")
