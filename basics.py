@@ -2,17 +2,33 @@
 # name="pranav"
 # attractive=True
 # print(type(name))
-# print("pranav"+str(age))
+# print("pranav"+age) #We cannot concatenate a string directly with a different data type like int it will throw typeerror
+# print("pranav"+str(age)) #Thus to concatenate a string directly with a different data type like int we will have to do type casting
 
 
+####Multiple assignment=allows us to assign multiple variables at the same time in one line of code
 # name,age,handsaome="pranav",20,True
 # print(name,handsaome,age)
+# pranav=harsh=lay=shailesh=True ## Assigns all of them true together in one line of code
 
 
 # name="pranav"
-# print(name.capitalize())
+# print(len(name)) ###Gives the length of the string
+# print(name.find("p")) ##Retruns the index of the letter passed as parameter, present in the string
+# # print(name.capitalize())
+# print(name.upper())
+# print(name.lower())
+# print(name.isdigit())
+# print(name.isalpha())
+# print(name.count("a")) ##Counts the number of occurences of the given string
+# print(name.replace("r","a"))
+# print(name*3)  ##Concatenate the string with its copy the number of times multiplication is done
 
 
+
+
+
+##Type casting = is used to convert the data type of a value to another data type
 # x=1
 # y=str(x)
 # print(type(y))
@@ -45,9 +61,9 @@
 
 
 # #---string slicing---
-# #string_name[start:end:step]    here start is inclusive,end is exclusive and step is used for skipping in between characters of string if we not write step then no characters will be skipped
+# #string_name[start:stop:step]    here start is inclusive,end is exclusive and step is used for skipping in between characters of string if we not write step then no characters will be skipped
 # name="Pranav Sandeep Raikar"
-# first_name=name[0:7]  
+# first_name=name[0:6]  
 # print(first_name)
 # last_name=name[15:]
 # print(last_name)
@@ -59,8 +75,8 @@
 # #****slicing using slice function*********
 # website1="https//google.com"
 # website2="https//wikipidea.com"
-# slice=slice(7,-4)
-# print(website1[slice])
+# slice=slice(7,-4) ##slice is an object 
+# print(slice)
 # print(website2[slice])
 
 
@@ -116,13 +132,24 @@
 
 
 # #---neasted for loop-----            it can be used for drawing patterns
-# rows =int(input("how many number of rows are there: "))
-# columns=int(input("how many columns: "))
-# symbol=input("enter a symbol to use: ")
+# # Read the number of rows from the user
+# rows = int(input("how many number of rows are there: "))
+
+# # Read the number of columns from the user
+# columns = int(input("how many columns: "))
+
+# # Read the symbol to use from the user
+# symbol = input("enter a symbol to use: ")
+
+# # Outer loop iterates over each row
 # for i in range(rows):
+#     # Inner loop iterates over each column in the current row
 #     for j in range(columns):
-#         print(symbol,end="")
+#         # Print the symbol without moving to a new line
+#         print(symbol, end="")
+#     # After the inner loop, print a newline to move to the next row
 #     print()
+
 
 
 # #----loop control statements------
