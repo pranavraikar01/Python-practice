@@ -11,6 +11,11 @@
 # print(name,handsaome,age)
 # pranav=harsh=lay=shailesh=True ## Assigns all of them true together in one line of code
 
+# ##Walrus operator
+# # print(name="Pranav") ## This will throw error TypeError: 'name' is an invalid keyword argument for print() 
+# ##But we can achieve above functionality using the :
+# print(name:="Pranav")  ##Here we assigned values to variables as part of a larger expression
+
 
 # name="pranav"
 # print(len(name)) ###Gives the length of the string
@@ -122,6 +127,10 @@
 #     print(i)
 # for i in "Pranav Raikar":     #here for loop is used on string
 #     print(i)
+# for i in range(1, 8): #Output:1,2,3,4,5,6,7
+#    print(i)
+#    i += 2 ##This will not at all affect the execution or incrementation in for loop because In a for loop in Python, the iteration variable is controlled by the loop itself, and changes to the iteration variable within the loop body do not affect the sequence of values that the loop iterates over.
+
 
 # import time
 # for seconds in range(10,0,-1):

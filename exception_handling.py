@@ -10,7 +10,9 @@
 # except  ValueError as e:
 #     print("Enter only numbers plz")                             #this exception occurs when number is divided by non int number
 # except Exception:
-#     print("Something went wrong")                             #even if we write this much and not specify the above exceptions it is okay but it is good to specify them
+#     print("Something went wrong")                             #even if we write this much and not specify the above exceptions it is okay but it is good to specify them as below
+# # except Exception as e:
+# #     print("exception:"+str(e))                             #even if we write this much and not specify the above exceptions it is okay but it is good to specify them
 # else:
 #     print(result)
 # finally:

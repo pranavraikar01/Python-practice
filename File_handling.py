@@ -16,7 +16,7 @@
 # #----reading a file----
 # with open('vesit.txt') as file:            #if the file is not in our project folder then write its path with double backslash wherever single there are single backslash
 #     print(file.read())                      #since we used 'with' while opening file it automatically closes the file if we dont write with then we have to close file manually
-# #note the above code doesn't has any exception handling which is practically incorrect
+# #NOTE the above code doesn't has any exception handling which is practically incorrect
 # try:
 #     with open('vesit.txt') as file:           #if file is not found then it throws an exception
 #         print(file.read())

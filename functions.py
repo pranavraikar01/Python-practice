@@ -87,7 +87,7 @@
 # import random
 # x=random.randint(1,6)                   #creates a random number between 1 and 6
 # print(x)
-# y=random.random  ()                       #creates random floating point number
+# y=random.random()                       #creates random floating point number
 # print(y)
 # mylist=['rock','paper','pen']
 # z=random.choice(mylist)                    #creates random from the list
